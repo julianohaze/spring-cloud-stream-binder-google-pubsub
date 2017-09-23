@@ -83,4 +83,7 @@ an environment variable: `GOOGLE_CLOUD_JSON_CRED`
 so make sure that you don't run your tests where you have topics/subscriptions being used somewhere else.
 
 
+== Sample projects
+
+Check out the projects spring-cloud-stream-pubsub-publisher and spring-cloud-stream-pubsub-subscriber to know how to use the binder.
 

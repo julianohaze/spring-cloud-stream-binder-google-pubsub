@@ -1,0 +1,20 @@
+credentials:
+  location: credentials.json
+project:
+  id: gcloud-lab
+
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        output-usuario-criado:
+          destination: usuario-criado
+          content-type: application/json
+server:
+  port: 8888
+
+logging:
+  level:
+    org.springframework.cloud.stream.binder.pubsub: debug
+    org.springframework.integration: debug
